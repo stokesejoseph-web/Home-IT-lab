@@ -20,9 +20,9 @@ Built a personal IT lab using VirtualBox with Windows 10 and Ubuntu Linux.
 - unable to reach destinaiton host while pinging 
 
 ## How I Fixed Them
-- launched unbunto in advanced more (shift + esc while launching) and assigned sudo persmisions to new local user 
-- 
+- launched unbunto in advanced mode (shift + esc while launching) and assigned sudo persmisions to new local user 
+- Switched from NAT mode to Bridged Adaptor mode (Could have also created a NAT Network but oppted for BA)
 
 ## What I Learned
 - Doubble check your snapshot saved correctly to ensure intentional restorations 
-- 
+- Make sure your networks corespond and also ensure your on Bridged or NAT Network mode so you can ping other systems (Set your promiscuous mode to allow all)
